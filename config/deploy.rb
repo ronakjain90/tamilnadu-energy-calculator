@@ -1,9 +1,9 @@
 # config valid for current version and patch releases of Capistrano
-lock '~> 3.10.1'
+lock '~> 3.11.0'
 
 set :application, 'IESS'
 
-set :repo_url, 'git@bitbucket.org:sonukry/maharastra_energy_tool.git'
+set :repo_url, 'git@github.com:ronakjain90/tamilnadu-energy-calculator.git'
 
 # Default branch is :master
 set :branch, :master
@@ -24,7 +24,7 @@ append :linked_dirs, 'log', 'tmp/pids', 'tmp/cache', 'tmp/sockets', 'public/syst
 set :keep_releases, 5
 
 set :ssh_options, {
-  verify_host_key: :secure,
+  verify_host_key: :always,
   forward_agent: true,
   keys: %w(~/.ssh/id_rsa)
 }
