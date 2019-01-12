@@ -1,0 +1,34 @@
+$white: #FFFFFF;
+$blue: #06568e;
+$color-black: #616569;
+$color-black-light: #575757;
+
+$navbar-bg-colour: $white !default;
+$navbar-brand-font-size: 1rem !default;
+$navbar-light-color: $color-black !default;
+$navbar-light-active-color: $color-black !default;
+$navbar-light-hover-color: $color-black-light !default;
+$navbar-nav-link-padding-x: 0.3rem  !default;
+$navbar-nav-link-padding-y: 0.3rem  !default;
+$navbar-padding-y: 0rem  !default;
+$navbar-padding-x: 0rem  !default;
+
+$container-max-widths: (
+        sm: 540px,
+        md: 720px,
+        lg: 960px,
+        xl: 1200px
+) !default;
+
+// Theme
+$primary: $blue !default;
+$brand:  #b24926;
+
+// Breadcrumbs
+$breadcrumb-bg: $primary;
+$breadcrumb-divider-color: $white;
+$breadcrumb-padding-y: 0.40rem;
+
+// Footer
+
+$footer-heading-colour: #0e2862;

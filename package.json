@@ -1,0 +1,24 @@
+{
+  "name": "tnsec_v2",
+  "version": "2.0.0",
+  "description": "Frontend dependency management for TNSEC calculator",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ronakjain90/iess_v2.git"
+  },
+  "dependencies": {
+    "bootstrap-tour": "0.12.0",
+    "jquery": "1.11.0",
+    "raphael": "2.1.0"
+  },
+  "author": "Ronak Jain <ronakjain90@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ronakjain90/iess_v2/issues"
+  },
+  "homepage": "https://github.com/ronakjain90/iess_v2#readme"
+}

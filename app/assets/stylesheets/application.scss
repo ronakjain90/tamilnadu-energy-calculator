@@ -1,0 +1,22 @@
+/*
+ *= require bootstrap-tour/build/css/bootstrap-tour-standalone.css
+ */
+
+@import "variables";
+@import "bootstrap";
+@import "framework_overrides";
+@import "change";
+@import "controls";
+@import "footer";
+@import "my_story";
+@import "pathways";
+@import "sankey";
+@import "simple_sankey";
+@import "story";
+@import "tooltip";
+@import "topbar";
+@import "userguide";
+
+.fade:not(.show) {
+  opacity: 1 !important;
+}
