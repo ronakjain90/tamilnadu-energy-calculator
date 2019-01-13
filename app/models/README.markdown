@@ -36,7 +36,7 @@ pick up the correct places in the underlying excel.
 ## In case excel compiling fails because of memory issue?
 
 ```shell
-  dd if=/dev/zero of=/swap1 bs=1M count=1024
+  dd if=/dev/zero of=/swap1 bs=1M count=2048
   mkswap /swap1
   chown root:root /swap1
   chmod 0600 /swap1
