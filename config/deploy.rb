@@ -18,8 +18,8 @@ set :pty, true
 
 set :log_level, :debug
 
-# Default value for linked_dirs is []
 append :linked_dirs, 'log', 'tmp/pids', 'tmp/cache', 'tmp/sockets', 'public/system'
+set :linked_files, %w{app/models/libmodel.so app/models/model.c app/models/model.o }
 
 set :keep_releases, 5
 
