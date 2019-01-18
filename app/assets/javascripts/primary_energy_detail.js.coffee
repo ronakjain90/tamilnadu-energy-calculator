@@ -9,6 +9,7 @@ class PrimaryEnergyDetail
     $('#results').append("<div id='energy_container'></div>")
     target = $('#energy_container')
 
+    document.getElementById("results").style.width = "80%"
     document.getElementById("display_table").style.display = "block"
     document.getElementById("print_div").style.display = "none"
     document.getElementById("pathway_box").style.display = "block"
@@ -22,7 +23,6 @@ class PrimaryEnergyDetail
 
     $('#display').append("<h5>Explore</h5><ul class='subnav'><li><a href='#' id='energy-subnav-1' class='btn btn-dark' onclick='twentyfifty.switchView(\"primary_energy_chart\")'>Demand & Supply</a></li><li><a href='#' id='energy-subnav-2' class='btn btn-dark' onclick='twentyfifty.switchView(\"primary_energy_overview_chart\")'>Sector-wise Drilldown</a></li><li><a href='#' id='energy-subnav-3' class='selected btn btn-dark' onclick='twentyfifty.switchView(\"primary_energy_detail_chart\")'>2015 vs 2050</a></li></ul>")
     
-    #$('#warning').append("<h5>Warning</h5>")
     @energy_demand_chart = new Highcharts.Chart({
       chart: { renderTo: 'demand_chart', height: 250, width: 300, type: 'column' },
       title: { text: 'Energy Demand' },
