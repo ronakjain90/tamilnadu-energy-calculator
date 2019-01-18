@@ -17,7 +17,7 @@ class LandUse
     target = $('#results')
 
     target.append("<div id='land_use' class='chart'></div>")
-    target.append("<div id='land_map' style='background-image:url(../../assets/images/tamil03.svg);background-size: 100% 100%; background-repeat: no-repeat;' class='chart'></div>")
+    target.append("<div id='land_map' style='background-image:url(../../assets/images/tamil03.svg.png);background-size: 100% 100%; background-repeat: no-repeat;' class='chart'></div>")
     target.append("<div id='land_share' class='chart'></div>")
 
     target.append(html)

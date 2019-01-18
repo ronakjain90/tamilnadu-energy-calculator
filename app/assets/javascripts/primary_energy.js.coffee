@@ -41,13 +41,12 @@ class PrimaryEnergy
           align: "high",
           rotation: 0,
           textAlign: "left",
-
           x: 0,
           y: -10,
           text: "TWh/yr"
         },
         min: 0,
-        max: 2000,
+        max: 1200,
         width: 300
       },
       xAxis: {width: 300},
@@ -142,7 +141,7 @@ class PrimaryEnergy
           text: "TWh/yr"
         },
         min: 0,
-        max: 2500,
+        max: 2200,
         width: 300
       },
       xAxis: {width: 300},

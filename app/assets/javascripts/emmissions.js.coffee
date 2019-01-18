@@ -41,7 +41,7 @@ class Emissions
     target = $('#energy_container')
     target.append("<div id='total_emissions_chart' class='chart'></div>")
     target.append("<div id='total_percapita_emissions_chart' class='chart'></div>")
-    target.append("<div id='total_percapita_emissions_map' style='height:300px; width: 225px; background-image:url(../../assets/images/tamil03.svg); background-size: cover; background-repeat: no-repeat;' class='chart'><p style='color: #000000;margin-left: -45px;margin-top: 100px;text-align: center;font-weight: bold;'></p></div>");
+    target.append("<div id='total_percapita_emissions_map' style='height:300px; width: 225px; background-image:url(../../assets/images/tamil03.svg.png); background-size: cover; background-repeat: no-repeat;' class='chart'><p style='color: #000000;margin-left: -45px;margin-top: 100px;text-align: center;font-weight: bold;'></p></div>");
 
     document.getElementById("pathway_box").style.display = "block"
     document.getElementById("classic_controls").style.display = "block"

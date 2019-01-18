@@ -54,7 +54,7 @@ class Electricity
           text: "TWh/yr"
         },
         min: 0,
-        max: 1000,
+        max: 700,
         width: 225
       },
       xAxis: {width: 250},

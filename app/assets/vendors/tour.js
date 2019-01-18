@@ -11,7 +11,7 @@ $(window).load(function () {
       orphan: true,
       placement: "top",
       backdrop: true,
-      title: "Welcome to Tamilnadu State Energy Calculator 2050",
+      title: "Welcome to Tamil Nadu State Energy Calculator 2050",
       content: "The TNSEC, 2050 is an energy scenario building tool, which aims to explore a range of potential future energy scenarios for India, for diverse energy demand and supply sectors, leading up to 2050.<br/> <br/> 17 Energy Demand and Supply sectors, and 38 levers that will impact our energy system are available to the user. Combination of the above choices offer hundreds of energy pathways till the year 2050.",
     },
     {

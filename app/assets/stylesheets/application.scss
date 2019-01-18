@@ -20,3 +20,7 @@
 .fade:not(.show) {
   opacity: 1 !important;
 }
+
+.collapse {
+  display: inherit;
+}

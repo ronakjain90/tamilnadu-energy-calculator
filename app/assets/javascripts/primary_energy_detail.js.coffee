@@ -75,8 +75,6 @@ class PrimaryEnergyDetail
           dataLabels: {
             enabled: false
           }
-
-
       series: []
     })
 

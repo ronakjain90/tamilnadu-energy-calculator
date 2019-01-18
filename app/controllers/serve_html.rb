@@ -17,8 +17,8 @@ class ServeHTML < Sinatra::Base
       haml :'default.html'
     end
 
-    get '/docs/Karnataka_energy_2050.xlsx' do
-      send_file File.join(settings.root, '../models', 'model.xlsx'), :filename => 'Karnataka_energy_2050.xlsx', :type => 'Application/octet-stream'
+    get '/docs/Tamil_nadu_energy_2050.xlsx' do
+      send_file File.join(settings.root, '../models', 'model.xlsx'), :filename => 'Tamil_nadu_energy_2050.xlsx', :type => 'Application/octet-stream'
     end
 
   else
@@ -31,8 +31,8 @@ class ServeHTML < Sinatra::Base
       send_file 'public/default.html'
     end
 
-    get '/docs/Karnataka_energy_2050.xlsx' do
-      send_file File.join(settings.root, '../models', 'model.xlsx'), :filename => 'Karnataka_energy_2050.xlsx', :type => 'Application/octet-stream'
+    get '/docs/Tamil_nadu_energy_2050.xlsx' do
+      send_file File.join(settings.root, '../models', 'model.xlsx'), :filename => 'Tamil_nadu_energy_2050.xlsx', :type => 'Application/octet-stream'
     end
 
   end

@@ -1,6 +1,6 @@
 # TNSEC 2050 Calculator
 
-A web interface to the Tamilnadu State Energy Calculator 2050
+A web interface to the Tamil Nadu State Energy Calculator 2050
 
 Further detail on the project:
 http://indiaenergy.gov.in
