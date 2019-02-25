@@ -114,7 +114,7 @@ class Model
 
     # use this function to reset all cell values
     attach_function 'reset', [], :void
-    # end of MHSEC Main Sheet
+    # end of TNSEC Main Sheet
     attach_function 'my_story_a1', [], ExcelValue.by_value
     attach_function 'my_story_a3', [], ExcelValue.by_value
     attach_function 'my_story_a5', [], ExcelValue.by_value
@@ -274,7 +274,7 @@ class Model
     attach_function 'my_story_b105', [], ExcelValue.by_value
     attach_function 'my_story_a106', [], ExcelValue.by_value
     # end of My Story
-    # end of MHSEC Results
+    # end of TNSEC Results
     # end of Preferences
     # end of Structure of the model
     # end of DATA SHEET

@@ -28,7 +28,7 @@
           %span.navbar-toggler-icon
         #navbarSupportedContent.collapse.navbar-collapse
           %ul.navbar-nav.ml-auto
-            - view_names.to_a.each do |action,title|
+            - view_names.to_a.each do |action, title|
               %li.nav-item
                 %a.nav-link{href:'#', onclick:"twentyfifty.switchView('#{action}')"}= title
     .container.mt-16
