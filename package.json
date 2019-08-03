@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "bootstrap-tour": "0.12.0",
-    "jquery": "1.11.0",
+    "jquery": "1.12.4",
     "raphael": "2.1.0"
   },
   "author": "Ronak Jain <ronakjain90@gmail.com>",

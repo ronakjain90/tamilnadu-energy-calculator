@@ -12,7 +12,7 @@ gem 'coffee-script'
 gem 'sprockets', '3.7.1'
 
 # Bootstrap
-gem 'bootstrap', '~> 4.1.0'
+gem 'bootstrap', '~> 4.3.1'
 
 # Server
 gem 'puma', '3.11.3'
