@@ -15,7 +15,7 @@ gem 'sprockets', '3.7.1'
 gem 'bootstrap', '~> 4.3.1'
 
 # Server
-gem 'puma', '3.12.1'
+gem 'puma', '3.12.3'
 
 # Model
 gem 'ffi'

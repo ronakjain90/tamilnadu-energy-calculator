@@ -95,7 +95,7 @@ GEM
     ox (2.10.0)
     popper_js (1.14.5)
     public_suffix (3.0.3)
-    puma (3.12.1)
+    puma (3.12.3)
     rack (2.0.6)
     rack-protection (2.0.1)
       rack
@@ -193,7 +193,7 @@ DEPENDENCIES
   json
   launchy
   minitest
-  puma (= 3.12.1)
+  puma (= 3.12.3)
   rack-test
   sass (= 3.7.3)
   shotgun
